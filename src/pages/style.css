@@ -1,0 +1,107 @@
+.containerL {
+  max-width: 800px;
+  width: 90%;
+  border-radius: 25px;
+}
+.img_container {
+  width: 50%;
+}
+.content_container {
+  width: 50%;
+}
+
+.input_field {
+  font-size: 14px;
+  border: 1px solid #000;
+  outline: #000;
+}
+.input_button {
+  font-size: 14px;
+  border: 1px solid #000;
+  outline: #000;
+  background-color: #000;
+  color: #fff;
+}
+.opt_filed {
+  font-size: 14px;
+  border: 1px solid #000;
+  outline: #000;
+  width: 40px;
+}
+.login_form {
+  width: 100%;
+}
+
+/* layout page */
+
+.layoutContainer {
+  background-color: #000;
+  color: #fff;
+}
+.innerContainer {
+  display: flex;
+  justify-content: flex-start;
+  align-self: start;
+  flex-direction: row;
+}
+.insideDrawerContainer {
+  width: 250px;
+  height: calc(100vh - 32px);
+}
+.outsideDrawerContainer {
+  width: calc(100vw - 200px);
+  height: calc(100vh - 32px);
+  overflow-y: scroll;
+  border-radius: 20px;
+  background-color: #fff;
+  color: #000;
+}
+
+
+/* dashbaord page  */
+
+.newMessage{
+  font-size: 14px;
+}
+.divider{
+    /* margin-top: 10px; */
+    margin-bottom: 10px;
+    border-top: 1px solid #00000048;
+}
+.card{
+    font-size: 12px;
+    background-color: #f5f5f5 !important;
+    border: none !important;
+}
+.opacity65{
+    opacity: 0.6;
+}
+.opacity1{
+    opacity: 1 !important;
+    color: #000;
+    font-size: 16px;
+}
+.nameT{
+    font-size: 16px;
+    font-weight: 600;
+}
+.top_drivers{
+    height: 65vh;
+    /* overflow-y: scroll; */
+    overflow: hidden;
+}
+.graph_kb{
+    height: 50vh;
+    /* overflow-y: scroll; */
+    overflow: hidden;
+    background-color: #f5f5f5;
+    border-radius: 15px;
+}
+@media screen and (max-width: 800px) {
+  .img_container {
+    display: none;
+  }
+  .content_container {
+    width: 100%;
+  }
+}

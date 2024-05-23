@@ -1,0 +1,39 @@
+.sidebar{
+}
+.navlist{
+    width: 100%;
+    text-align: left;
+    list-style: none;
+}
+.itemLink{
+    text-decoration: none;
+    color: #fff;
+    padding: 10px;
+    border-radius: 20px 0 0 20px;
+    width: 100%;
+    display: block;
+}
+.itemLink:hover{
+    color:rgb(10, 21, 228) ;
+
+}
+.items{
+   width: 100%;
+}
+
+.contactT{
+    font-size: 12px;
+    opacity: 0.6;
+}
+.opacity65{
+    opacity: 0.6;
+    font-size: 14px;
+    margin-top: 2rem;
+    margin-left: 1rem;
+}
+
+.active{
+    background-color: #fff;
+    color: rgb(10, 21, 228);
+    font-weight: 600;
+}
