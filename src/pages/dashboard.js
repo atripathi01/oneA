@@ -38,7 +38,7 @@ const topDrivers = [
     contact: '+998 (99) 436-46-15',
     order: '5',
     income: '98',
-  }
+  },
 ];
 const Dashboard = () => {
   return (
