@@ -38,8 +38,9 @@ const topDrivers = [
     contact: '+998 (99) 436-46-15',
     order: '5',
     income: '98',
-  }
+  },
 ];
+
 const Dashboard = () => {
   return (
     <div className='dashboard_container p-3 '>
@@ -58,7 +59,39 @@ const Dashboard = () => {
           <div className='col-7'>
             <div className='p-3'>
               <p className='fw-bolder '>Knowledge base</p>
-              <div className='graph_kb'></div>
+              <div className='row gap-2 d-flex justify-content-between  align-items-center flex-row '>
+                <div className='col-3 card_blue blue d-flex justify-content-center align-items-center '>
+                    <div className='d-flex justify-content-between w-100 align-items-center '>
+                        <div className='m-0 d-flex  justify-content-start align-align-items-center '>
+                       <span> <i class="fa-regular fa-folder-open"></i></span>
+                           <p className='m-0'>Total Orders</p>
+                        </div>
+                        <i className='fa-solid fa-chevron-right text-dark '></i>
+                    </div>
+                </div>
+                <div className='col-3 card_blue red d-flex justify-content-center align-items-center '>
+                    <div className='d-flex justify-content-between w-100 align-items-center '>
+                        <div className='m-0 d-flex  justify-content-start align-align-items-center '>
+                       <span> <i class="fa-regular fa-folder-open"></i></span>
+                           <p className='m-0'>Total Earnings</p>
+                        </div>
+                        <i className='fa-solid fa-chevron-right text-dark '></i>
+                    </div>
+                </div>
+                <div className='col-3 card_blue yellow d-flex justify-content-center align-items-center '>
+                    <div className='d-flex justify-content-between w-100 align-items-center '>
+                        <div className='m-0 d-flex  justify-content-start align-align-items-center '>
+                       <span> <i class="fa-regular fa-folder-open"></i></span>
+                           <p className='m-0'>Profit</p>
+                        </div>
+                        <i className='fa-solid fa-chevron-right text-dark '></i>
+                    </div>
+                </div>
+              </div>
+              <div className='graph_kb p-4 fs-5 fw-bold '>
+                Statistic
+               <p className='my-3 fs-6'>Comming Soon..</p>
+              </div>
             </div>
           </div>
           <div className='col-5 top_drivers'>
