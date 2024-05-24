@@ -19,8 +19,8 @@
   font-size: 14px;
   border: 1px solid #000;
   outline: #000;
-  background-color: #000;
-  color: #fff;
+  background-color: #000 !important;
+  color: #fff !important;
 }
 .opt_filed {
   font-size: 14px;
